@@ -3,7 +3,7 @@ import pandas as pd
 import joblib  # to load the saved model
 
 # Load the trained model (adjust the path as needed)
-model = joblib.load('random_forest_model.pkl')
+model = joblib.load('company_profits.pkl')
 
 # Streamlit App Title
 st.title("Company Profit Prediction App")
