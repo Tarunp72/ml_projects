@@ -23,12 +23,7 @@ The project relies on the following Python libraries:
 - `seaborn`: For advanced statistical plotting.
 - `scikit-learn`: For building machine learning models and evaluating their performance.
 
-## **Installation**
 
-To install the required dependencies, use the `requirements.txt` file provided. You can install the dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
 
 ## **Steps in the Project**
 
@@ -42,3 +37,14 @@ pip install -r requirements.txt
    - Other models such as ensemble methods are explored.
 5. **Model Evaluation**: Performance of the model is evaluated using metrics like R² and Mean Squared Error (MSE).
 6. **Model Serialization**: The trained model is saved using `pickle` for future use.
+
+
+
+# Company Profit Prediction
+
+## Dataset
+The dataset `1000_Companies.csv` should be placed in the working directory. You can download it from Kaggle or another source that provides similar data on company investments and profits.
+
+## Results
+The machine learning models built in this notebook provide insights into which factors are most influential in determining company profits. The final model can be used to predict profits for new companies based on their investments.
+
