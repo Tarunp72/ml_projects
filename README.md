@@ -1,4 +1,4 @@
-End-to-End Machine Learning Project: Predicting Company Profits
+##End-to-End Machine Learning Project: Predicting Company Profits
 This project aims to predict the profits of companies in various U.S. states (California, New York, and Florida) based on their investments in R&D, Administration, and Marketing departments. The model is built using machine learning techniques to process the data and generate accurate profit predictions.
 
 Project Overview
