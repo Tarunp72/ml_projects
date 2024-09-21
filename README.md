@@ -29,3 +29,16 @@ To install the required dependencies, use the `requirements.txt` file provided. 
 
 ```bash
 pip install -r requirements.txt
+
+## **Steps in the Project**
+
+1. **Loading the Data**: The data is loaded using `pandas` and inspected to understand its structure.
+2. **Data Visualization**: Visualizations are created using `matplotlib` and `seaborn` to analyze the relationships between the features and the target variable (profit).
+3. **Data Preprocessing**:
+   - Handling categorical variables (e.g., converting "State" to numerical form).
+   - Scaling numerical data for better model performance.
+4. **Model Building**:
+   - Multiple linear regression model using `scikit-learn` to predict profits.
+   - Other models such as ensemble methods are explored.
+5. **Model Evaluation**: Performance of the model is evaluated using metrics like R² and Mean Squared Error (MSE).
+6. **Model Serialization**: The trained model is saved using `pickle` for future use.
